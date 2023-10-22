@@ -1,0 +1,20 @@
+﻿<Window x:Class="Task_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_1"
+        mc:Ignorable="d"
+        Title="XMAS Tree" Height="750" Width="1200">
+    <Grid>
+        <TextBox Name="rowsTextBox" FontSize="17" HorizontalAlignment="Center" Margin="0,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" Height="56"/>
+        <Button Name="generateButton" FontSize="17" Content="Generate" HorizontalAlignment="Center" VerticalAlignment="Center" Click="GenerateButtonClicked" Height="50" Width="108"/>
+        <TextBox Name="outputTextBox" FontFamily="Courier New" FontSize="12" IsReadOnly="True" HorizontalAlignment="Center" Height="250" Margin="0,417,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="570" />
+        <TextBox Name="HeaderInputTextBox" FontSize="17" HorizontalAlignment="Center" Margin="0,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" Height="55"/>
+        <TextBox Name="FooterInputTextBox" FontSize="17" HorizontalAlignment="Center" Margin="0,273,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="278" Height="55"/>
+        <TextBlock HorizontalAlignment="Center" FontSize="17" Margin="0,14,0,0" TextWrapping="Wrap" Text="Enter your header:" VerticalAlignment="Top" Height="33" Width="148"/>
+        <TextBlock HorizontalAlignment="Center" TextAlignment="Center" FontSize="17" Margin="0,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="48" Width="148"><Run Text="Enter "/><Run Language="hr-hr" Text="the amount of rows:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Center" FontSize="17" Margin="0,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="148"><Run Text="Enter your "/><Run Language="hr-hr" Text="footer"/><Run Text=":"/></TextBlock>
+
+    </Grid>
+</Window>
